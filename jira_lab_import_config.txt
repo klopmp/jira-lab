@@ -1,0 +1,63 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "053adf6f-661b-4895-b260-e29f799ed1c8",
+  "config.email.suffix" : "@",
+  "config.file.name" : "jira_lab_import.csv",
+  "config.field.mappings" : {
+    "Status" : {
+      "jira.field" : "status",
+      "userChanged" : "false",
+      "manualMapping" : "true"
+    },
+    "Assignee" : {
+      "jira.field" : "assignee",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Issue Type" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Priority" : {
+      "jira.field" : "priority",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Labels" : {
+      "jira.field" : "labels",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Due date" : {
+      "jira.field" : "duedate",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "Status" : {
+      "Done" : "10001",
+      "To Do" : "10000",
+      "In Progress" : "3"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "LAB",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "K-Lab",
+    "project.lead" : null
+  },
+  "config.date.format" : "mm/dd/yyyy"
+}

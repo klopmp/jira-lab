@@ -1,0 +1,9 @@
+Issue Type,Priority,Key,Summary,Status,Assignee,Due date,Labels
+Task,Highest,,Task #1,Done,kenneth,01/31/20,requirement invesetment
+Task,Medium,,Task #2,In Progress,,02/28/20,requirement legal
+Task,Medium,,Task #3,To Do,,03/31/20,developement dataload
+Task,Highest,,Task #4,In Progress,kenneth,04/30/20,development
+Task,Medium,,Task #5,To Do,,05/31/20,dataload
+Task,Medium,,Task #6,To Do,,07/31/20,testing training
+Task,Lowest,,Task #7,To Do,,07/31/20,support
+Task,Highest,,Task #8,To Do,kenneth,09/30/20,billing
